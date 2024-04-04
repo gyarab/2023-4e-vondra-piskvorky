@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="728.0" prefWidth="824.0" stylesheets="@Ui.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="piskvorky.PiskvorkyController">
+    <children>
+      <GridPane fx:id="grid" layoutX="109.0" layoutY="215.0" prefHeight="432.0" prefWidth="537.0">
+         <children>
+            <Button fx:id="pole_12_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" styleClass="kostka" GridPane.columnIndex="12" GridPane.rowIndex="12" />
+            <Button fx:id="pole_11_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="12" />
+            <Button fx:id="pole_10_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="12" />
+            <Button fx:id="pole_0_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" />
+            <Button fx:id="pole_0_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="12" />
+            <Button fx:id="pole_1_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+            <Button fx:id="pole_2_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+            <Button fx:id="pole_3_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+            <Button fx:id="pole_4_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+            <Button fx:id="pole_5_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+            <Button fx:id="pole_6_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+            <Button fx:id="pole_7_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="12" />
+            <Button fx:id="pole_8_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+            <Button fx:id="pole_9_12" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="12" />
+            <Button fx:id="pole_0_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="11" />
+            <Button fx:id="pole_0_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="10" />
+            <Button fx:id="pole_1_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+            <Button fx:id="pole_1_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+            <Button fx:id="pole_2_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+            <Button fx:id="pole_2_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+            <Button fx:id="pole_3_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+            <Button fx:id="pole_3_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+            <Button fx:id="pole_4_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+            <Button fx:id="pole_4_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+            <Button fx:id="pole_5_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+            <Button fx:id="pole_5_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+            <Button fx:id="pole_6_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+            <Button fx:id="pole_6_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+            <Button fx:id="pole_7_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+            <Button fx:id="pole_7_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+            <Button fx:id="pole_8_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+            <Button fx:id="pole_8_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+            <Button fx:id="pole_9_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+            <Button fx:id="pole_9_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+            <Button fx:id="pole_10_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+            <Button fx:id="pole_10_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+            <Button fx:id="pole_11_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+            <Button fx:id="pole_11_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="11" />
+            <Button fx:id="pole_12_10" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+            <Button fx:id="pole_12_11" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+            <Button fx:id="pole_0_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="9" />
+            <Button fx:id="pole_0_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="8" />
+            <Button fx:id="pole_0_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="7" />
+            <Button fx:id="pole_0_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="6" />
+            <Button fx:id="pole_0_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="5" />
+            <Button fx:id="pole_0_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="4" />
+            <Button fx:id="pole_0_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="3" />
+            <Button fx:id="pole_0_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="2" />
+            <Button fx:id="pole_0_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.rowIndex="1" />
+            <Button fx:id="pole_1_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" />
+            <Button fx:id="pole_1_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="pole_1_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="pole_1_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="pole_1_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button fx:id="pole_1_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button fx:id="pole_1_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <Button fx:id="pole_1_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+            <Button fx:id="pole_1_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+            <Button fx:id="pole_1_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+            <Button fx:id="pole_2_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" />
+            <Button fx:id="pole_2_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="pole_2_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="pole_2_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button fx:id="pole_2_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button fx:id="pole_2_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button fx:id="pole_2_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+            <Button fx:id="pole_2_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+            <Button fx:id="pole_2_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+            <Button fx:id="pole_2_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+            <Button fx:id="pole_3_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" />
+            <Button fx:id="pole_3_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button fx:id="pole_4_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button fx:id="pole_3_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button fx:id="pole_4_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button fx:id="pole_3_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button fx:id="pole_3_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button fx:id="pole_4_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button fx:id="pole_4_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button fx:id="pole_3_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button fx:id="pole_4_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button fx:id="pole_4_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" />
+            <Button fx:id="pole_3_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+            <Button fx:id="pole_3_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+            <Button fx:id="pole_3_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+            <Button fx:id="pole_3_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+            <Button fx:id="pole_4_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+            <Button fx:id="pole_4_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+            <Button fx:id="pole_4_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+            <Button fx:id="pole_4_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+            <Button fx:id="pole_5_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" />
+            <Button fx:id="pole_6_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" />
+            <Button fx:id="pole_7_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" />
+            <Button fx:id="pole_8_0" mnemonicParsing="false" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" />
+            <Button fx:id="pole_9_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" />
+            <Button fx:id="pole_10_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" />
+            <Button fx:id="pole_11_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" />
+            <Button fx:id="pole_12_0" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" />
+            <Button fx:id="pole_12_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+            <Button fx:id="pole_12_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+            <Button fx:id="pole_12_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+            <Button fx:id="pole_12_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+            <Button fx:id="pole_12_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+            <Button fx:id="pole_12_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+            <Button fx:id="pole_12_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+            <Button fx:id="pole_12_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+            <Button fx:id="pole_12_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+            <Button fx:id="pole_5_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button fx:id="pole_6_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+            <Button fx:id="pole_7_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+            <Button fx:id="pole_8_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+            <Button fx:id="pole_9_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+            <Button fx:id="pole_10_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+            <Button fx:id="pole_11_1" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+            <Button fx:id="pole_5_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button fx:id="pole_6_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button fx:id="pole_7_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+            <Button fx:id="pole_8_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+            <Button fx:id="pole_9_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+            <Button fx:id="pole_10_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+            <Button fx:id="pole_11_2" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+            <Button fx:id="pole_11_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+            <Button fx:id="pole_11_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+            <Button fx:id="pole_11_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+            <Button fx:id="pole_11_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+            <Button fx:id="pole_11_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+            <Button fx:id="pole_11_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+            <Button fx:id="pole_11_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+            <Button fx:id="pole_10_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+            <Button fx:id="pole_9_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+            <Button fx:id="pole_8_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+            <Button fx:id="pole_7_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+            <Button fx:id="pole_6_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+            <Button fx:id="pole_5_9" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+            <Button fx:id="pole_5_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+            <Button fx:id="pole_5_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+            <Button fx:id="pole_5_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+            <Button fx:id="pole_5_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button fx:id="pole_5_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button fx:id="pole_5_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button fx:id="pole_6_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+            <Button fx:id="pole_7_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+            <Button fx:id="pole_8_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+            <Button fx:id="pole_9_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+            <Button fx:id="pole_10_3" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+            <Button fx:id="pole_10_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+            <Button fx:id="pole_10_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+            <Button fx:id="pole_10_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+            <Button fx:id="pole_10_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+            <Button fx:id="pole_10_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+            <Button fx:id="pole_9_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+            <Button fx:id="pole_8_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+            <Button fx:id="pole_7_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+            <Button fx:id="pole_6_4" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+            <Button fx:id="pole_9_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+            <Button fx:id="pole_9_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+            <Button fx:id="pole_9_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+            <Button fx:id="pole_9_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+            <Button fx:id="pole_8_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+            <Button fx:id="pole_7_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+            <Button fx:id="pole_6_5" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+            <Button fx:id="pole_6_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+            <Button fx:id="pole_6_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+            <Button fx:id="pole_6_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+            <Button fx:id="pole_7_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+            <Button fx:id="pole_8_6" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+            <Button fx:id="pole_7_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+            <Button fx:id="pole_8_7" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+            <Button fx:id="pole_7_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+            <Button fx:id="pole_8_8" mnemonicParsing="false" onAction="#udelejTah" prefHeight="64.0" prefWidth="81.0" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+         </children>
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+      </GridPane>
+      <TextField fx:id="informacniOkno" editable="false" layoutX="120.0" layoutY="168.0" prefHeight="25.0" prefWidth="515.0" style="-fx-alignment: center;" />
+      <Label layoutX="109.0" layoutY="14.0" prefHeight="68.0" prefWidth="538.0" text="Piškvorky">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <Label layoutX="690.0" layoutY="221.0" text="Hráč 1:" />
+      <Label layoutX="690.0" layoutY="347.0" text="Hráč 2:" />
+      <TextField fx:id="jmenoHrac1" layoutX="660.0" layoutY="235.0" prefHeight="25.0" prefWidth="109.0" promptText="Jméno hráče" text="Člověk" />
+      <RadioButton fx:id="pocitac1" layoutX="221.0" layoutY="121.0" mnemonicParsing="false" onAction="#nastavTypHrace1" prefHeight="34.0" prefWidth="73.0" text="Počítač" />
+      <TextField fx:id="jmenoHrac2" layoutX="659.0" layoutY="372.0" prefHeight="25.0" prefWidth="109.0" promptText="Jméno hráče" text="Počítač" />
+      <Label layoutX="676.0" layoutY="466.0" text="Počet na výhru">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="p4" layoutX="682.0" layoutY="498.0" mnemonicParsing="false" text="4">
+         <toggleGroup>
+            <ToggleGroup fx:id="pocetNaVyhru" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="p5" layoutX="719.0" layoutY="498.0" mnemonicParsing="false" selected="true" text="5" toggleGroup="$pocetNaVyhru" />
+      <RadioButton fx:id="p6" layoutX="756.0" layoutY="498.0" mnemonicParsing="false" text="6" toggleGroup="$pocetNaVyhru" />
+      <Button fx:id="novaHra" layoutX="686.0" layoutY="583.0" mnemonicParsing="false" onAction="#novaHra" prefHeight="34.0" prefWidth="92.0" text="Nová hra">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="konecHry" disable="true" layoutX="686.0" layoutY="534.0" mnemonicParsing="false" onAction="#konecHry" prefHeight="34.0" prefWidth="92.0" text="Konec hry">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="176.0" layoutY="129.0" text="Hráč 1:" />
+      <Label layoutX="394.0" layoutY="129.0" text="Hráč 2:" />
+      <RadioButton fx:id="pocitac2" layoutX="447.0" layoutY="121.0" mnemonicParsing="false" onAction="#nastavTypHrace2" prefHeight="34.0" prefWidth="81.0" selected="true" text="Počítač" />
+      <TextField fx:id="znakHrace1" layoutX="717.0" layoutY="267.0" prefHeight="25.0" prefWidth="31.0" text="X" />
+      <TextField fx:id="znakHrace2" layoutX="717.0" layoutY="406.0" prefHeight="25.0" prefWidth="31.0" text="O" />
+      <Label layoutX="662.0" layoutY="271.0" text="Symbol" />
+      <Label layoutX="662.0" layoutY="410.0" text="Symbol" />
+    </children>
+</AnchorPane>
